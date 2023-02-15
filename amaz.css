@@ -1,0 +1,330 @@
+*{  
+    margin: 0;
+    border: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 29, 37);
+    display: flex;
+}
+.nav .logo{
+    width: 11%;
+    height: 11vh;
+}
+.nav .logo img{
+    height: 10vh;
+    width: 100%;
+}
+.nav .bar{
+    width: 100%;
+}
+  
+
+.nav .bar{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 1%;
+    
+}
+.catgry{
+    margin-left: 2%;
+    
+}
+.bar a{
+    margin-left: 3%;
+    color: whitesmoke;
+}
+.catgry select{
+    height: 6vh;
+    background-color: transparent;
+    border-radius: 6px;
+}
+.catgry{
+    color: bisque;
+}
+.catgry option{
+    background-color: blue;
+}
+.bar .bt{
+    /* padding-left: 30%; */
+    padding: 5px;
+    height: 6vh;
+    width: 10%;
+    background-color:cornflowerblue;
+    margin-left: 30%;
+    border-radius: 4px;
+  
+}
+.bar .bt h4{
+    margin-top: 3%;
+    color: white;
+    font-weight: 100;
+    margin-left: 8%;
+}
+/* .nav button{
+    height: 6vh;
+    width: 100%;
+    font-size: medium;
+    background-color:cyan;
+    border-radius: 5px;
+    border: none;
+   
+} */
+.nav .icon{
+    height: 4.5vh;
+    width: 2%;
+    margin-left: 1%;
+    margin-top: 0.7%;
+}
+.nav .bar .icon i{
+    color: white;
+    font-size: large;
+}
+.nav .bar .lng{
+    width: 5%;
+    /* background-color: cadetblue; */
+    margin: 0%;
+    padding:0%
+}
+.lng select{
+    height: 6vh;
+    width: 80%;
+    outline:none;
+    background-color: transparent;
+    color: black;
+    border: 0;
+}
+.nav .icon1{
+    height: 4.5vh;
+    width: 2%;
+    margin-top: 0.7%;
+    margin-left: 1%;
+}
+.nav .bar .icon1 i{
+    color: white;
+    font-size: large;
+}
+.nav .bar .icn{
+    height: 4.5vh;
+    width: 2%;
+    margin-top: 0.7%;
+    margin-left: 2%;
+} 
+.icn i{
+    color: azure;
+}
+.bg{
+    width: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/prime-bg.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+
+.bg .cont1{
+    color: antiquewhite;
+    width: 100%;
+    height: 17h;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 1.1rem;
+    line-height: 40px;
+    
+    
+}
+.cont1 h1 h2 {
+    margin-bottom: 10%;
+    
+}
+.bg .sign1{
+    position: relative;
+}
+.bg .sign1 button{
+    margin-top: 2%;
+    background-color:rgb(7, 74, 141);
+    border: none;
+    height: 8vh;
+    width: 23%;
+    border-radius: 3px;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    color: beige;
+}
+.bg2{
+    background: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/amzn-bg2.jpg);
+    height: 75vh;
+    background-size: cover ;
+    width: 100%;
+}
+   
+.bg2 .cont2{
+    line-height: 55px;
+    height: 15vh;
+    color: bisque;
+    padding-top: 10%;
+    padding-left: 52%;
+    font-size:larger;
+}
+.bg2 .rent{
+
+}
+.bg2 .rent button{
+    margin-top: 11%;
+    background-color:dodgerblue;
+    border: none;
+    height: 8vh;
+    width: 23%;
+    border-radius: 3px;
+    margin-left: 52%;
+    font-size: 1rem;
+    color: beige;
+}
+.prt3{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+.prt3 .cont{
+    width: 36%;
+    padding-top: 10%;
+    margin-left: 3.5%;
+}
+.prt3 .cont h4{
+    margin-top: 3%;
+    line-height: 25px;
+}
+
+.chnls{
+    display: flex;
+    gap: 4px;
+    padding-left: 13%;
+    margin-top: 2%;
+
+}
+
+.chnls .clm{
+    
+    width: 170px;
+    height: 20vh;
+    /* border: 1px; */
+    margin-top: 1.5%;
+    background-color: rgb(72, 124, 146);
+}
+.chnls .clm img{
+    width: 170px;
+    height: 20vh;
+    padding-top: 1%;
+    
+}
+.rmt{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/amz-remte.jpg);
+
+}
+.rmt .rmt-cont{
+    width: 90%;
+    color: bisque;
+    padding-top: 5%;
+    padding-left: 60%;
+    flex-wrap: wrap;
+}
+.gsts{
+    width: 100%;
+    height: 8vh;
+    /* border: none; */
+    border-radius: 5px;
+    padding-left: 60%; 
+    margin-top: 3%;
+
+}
+.gsts button{
+    height: 8vh;
+    width: 45%;
+   color:cornsilk;
+   background-color:dodgerblue;
+   border: none;
+   font-size: large;
+}
+.cld{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/amz-cld1.jpg);
+    background-size: cover;
+}
+.cld .fam{
+    color: beige;
+    width: 40%;
+    flex-wrap: wrap;
+    line-height: 30px;
+    padding-top: 12%;
+    margin-left: 3%;
+}
+
+
+
+
+.gsts1{
+    width: 100%;
+    height: 8vh;
+    border-radius: 5px;
+    padding-left: 3%; 
+    margin-top: 0%;
+
+}
+.gsts1 button{
+    height: 8vh;
+    width:20%;
+   color:cornsilk;
+   background-color:dodgerblue;
+   border: none;
+   margin-top: 5%;
+   font-size: large;
+   
+}
+.prm-fotr{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(37, 34, 34);
+}
+.prm-logo{
+    padding-top: 2%;
+    padding-left: 45%;
+}
+.footr{
+    width: 100%;
+    text-align: center;
+    color:darkgrey;
+    font-size: medium;
+  
+    
+}
+.trms a{
+    text-decoration: none;
+    gap: 50px;
+
+}
+
+@media(max-width:1100px){
+    .bg2 .rent button{
+         margin-top: 14.5%;
+    }
+    .chnls{
+        margin-left: 11%;
+    }
+}
+
+
+@media(max-width:1050px){
+    .bg{
+        background-size: cover;
+    }
+    .bg2 .rent button{
+        margin-top: 22%;
+    }
+}
