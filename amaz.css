@@ -40,7 +40,7 @@
     color: whitesmoke;
 }
 .catgry select{
-    height: 6vh;
+    height: 4vh;
     background-color: transparent;
     border-radius: 6px;
 }
@@ -84,6 +84,10 @@
 .nav .bar .icon i{
     color: white;
     font-size: large;
+}
+.nav .bar .hid{
+    /* display: none; */
+    color: bisque;
 }
 .nav .bar .lng{
     width: 5%;
@@ -169,9 +173,6 @@
     padding-left: 52%;
     font-size:larger;
 }
-.bg2 .rent{
-
-}
 .bg2 .rent button{
     margin-top: 11%;
     background-color:dodgerblue;
@@ -188,6 +189,9 @@
     height: 90vh;
     width: 100%;
 }
+.totl{
+    display: flex;
+}
 .prt3 .cont{
     width: 36%;
     padding-top: 10%;
@@ -201,34 +205,38 @@
 .chnls{
     display: flex;
     gap: 4px;
-    padding-left: 13%;
+    padding-left: 20%;
     margin-top: 2%;
 
 }
 
 .chnls .clm{
     
-    width: 170px;
+    width: 200px;
     height: 20vh;
-    /* border: 1px; */
     margin-top: 1.5%;
-    background-color: rgb(72, 124, 146);
 }
 .chnls .clm img{
-    width: 170px;
+    width: 200px;
     height: 20vh;
     padding-top: 1%;
     
 }
+
+.chnls .clm img:hover{
+    width: 200px;
+    height: 21vh;
+    transition: 0.5s;
+    box-shadow: 10px 100px solid black;
+}
 .rmt{
-    height: 100vh;
-    width: 100%;
+    height: 80vh;
+    background-image: url(/amz-remte.jpg);
     background-size: cover;
-    background: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/amz-remte.jpg);
 
 }
 .rmt .rmt-cont{
-    width: 90%;
+    width: 100%;
     color: bisque;
     padding-top: 5%;
     padding-left: 60%;
@@ -265,10 +273,6 @@
     padding-top: 12%;
     margin-left: 3%;
 }
-
-
-
-
 .gsts1{
     width: 100%;
     height: 8vh;
@@ -309,22 +313,223 @@
     gap: 50px;
 
 }
+@media(max-width:1150px){
+    .bg{
+        background-position-x: right;
+    }
+}
 
 @media(max-width:1100px){
+    .bg{
+        background-position-x: right;
+    }
     .bg2 .rent button{
          margin-top: 14.5%;
     }
     .chnls{
-        margin-left: 11%;
+        margin-right: 1%;
+    }
+}
+@media(max-width:1050px){
+    .bg{
+        
+        background-size: cover;
+        width: auto;
+        background-position-x: right;
+        }
+    .bg2 .rent button {
+        margin-top: 16%;
+    }
+    .cld {
+        height: 80vh;
+    }
+}
+@media(max-width:1000px){
+    .nav .bar .hme{
+        display: none;
+    }
+    .nav .bar .str{
+        display: none;
+    }
+    .nav .bar .chnl{
+        display: none;
+    }
+    .nav .bar .catgry{
+        display: none;
+    }
+    .nav .bar .my-stf{
+        display: none;
+    }
+    .hid{
+        padding-left: 20%;
+    }
+    .chnls {
+        margin-right: 1%;
+        padding-left: 5%;
+    }
+
+    .bar .bt {
+    height: 5vh;
+    width: 12%;
+    margin-left: 25%;
+    }   
+    
+    .bar .bt h4{
+        line-height: 15px;
+        margin-top: 1%;
+        padding-left: 10%;
+    }
+}
+@media(max-width:950px){
+    .rmt .rmt-count{
+        padding-top: 8%;
+    }
+    .bg .sign1 button{
+        font-size: 1rem;
     }
 }
 
+@media(max-width:900px){
+.bg{
+    height: 85vh;
+}
+.cld{
+    height: 70vh;
+}
+.rmt{
+    background-position-x: -65px;
+}
 
-@media(max-width:1050px){
-    .bg{
-        background-size: cover;
+.rmt .rmt-cont{
+    padding-top:10%;
+    padding-left: 50%;
+}
+/* .chnls .clm img{
+    width: 170px;
+}
+.chnls{
+    gap: 1px;
+} */
+}
+
+@media(max-width:850px){
+    .chnls{
+        padding-left: 2%;
+    }
+    .cld{
+        background-position-x: -60px;
+    }
+}
+@media(max-width:800px){
+    .totl{
+        flex-direction: column;
+
+    }
+    .bg2{
+        height: 65vh;
+    }
+    .prt3 .cont{
+        padding-top: 1%;
+        width: 85%;
+        line-height: 20px;
+        margin-left: 7%;
+    }
+    .prt3 .cont h4 {
+        line-height: 20px;
+        flex-wrap: wrap;
+        font-size: medium;
+}
+.chnls{
+    padding-left: 15%;
+    margin-top: 1%;
+
+}
+.chnls .clm{
+    height: 18vh;
+    width: 100%;
+    margin-top: 0%;
+    
+    
+}
+.chnls .clm img{
+    padding-top: 13%;
+    width: 80%;
+}
+.cld{
+    height: 65vh;
+}
+}
+@media(max-width:750px){
+    .bar .bt h4 {
+        font-size: smaller;
+    }
+    .bar .bt {
+        margin-left: 15%;
+
+    }
+    .bg .sign1 button{
+        width: 35%;
+        height: 6vh;
+        
+    }
+    .bg2 .cont2 {
+        line-height: 40px;
     }
     .bg2 .rent button{
-        margin-top: 22%;
+        height: 6vh;
+        width: 35%;
+        margin-top: 20%;
     }
+    .rmt{
+        height: 65vh;
+    }
+    .rmt .rmt-cont {
+        padding-left: 45%;
+
+    }
+    .gsts{
+        padding-left: 45%;
+    }
+    .gsts button {
+        height: 6.5vh;
+        width: 45%;
+        
+    }
+}
+@media(max-width:700px){
+    .bg{
+        height: 90vh;
+        background-image: linear-gradient(to bottom rgba(0,0,0,0.9),rgba(0,0,0,0.9,)),url(/);
+    }
+    .bg .cont1{
+        padding-top: 15%;
+    }
+    .bar .bt {
+        width: 12%;
+        margin-left: 7%;
+    }
+
+    .bg2 .cont2 {
+        line-height: 35px;
+    }
+    .chnls{
+        margin-top: -1%;
+    }
+    .cld{
+        height: 58vh;
+    }
+    .cld .fam {
+    width: 65%;
+    }
+    .gsts1 button{
+        height: 7vh;
+        width: 35vh;
+    }
+}
+
+@media(max-width:600px){
+    .bg{
+        /* height: 90vh; */
+    }
+
 }
