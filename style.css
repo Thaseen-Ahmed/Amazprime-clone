@@ -679,6 +679,12 @@ hr{
         width: 90%;
         height: 5vh;
     }
+    .chnls .clm img:hover{
+        width: 130px;
+        height: 15vh;
+        transition: 0.5s;
+        box-shadow: 10px 100px solid black;
+    } 
     .rmt{
         background-image: url(/rmt2.jpg);
         background-position-x: -7px;
@@ -793,6 +799,12 @@ hr{
     }.bar .bt h4 {
         margin-left: -1%;
         line-height: 10px;
+    }
+    .chnls .clm img:hover{
+        width: 110px;
+        height: 13vh;
+        transition: 0.5s;
+        box-shadow: 10px 100px solid black;
     }
 }
 @media(max-width:470px){
