@@ -158,6 +158,10 @@
     font-size: 1.2rem;
     color: beige;
 }
+hr{
+    color:antiquewhite;
+    line-height: 10px;
+}
 .bg2{
     background: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/amzn-bg2.jpg);
     height: 75vh;
@@ -174,15 +178,17 @@
     font-size:larger;
 }
 .bg2 .rent button{
-    margin-top: 11%;
-    background-color:dodgerblue;
-    border: none;
-    height: 8vh;
-    width: 23%;
-    border-radius: 3px;
-    margin-left: 52%;
-    font-size: 1rem;
-    color: beige;
+    
+        margin-top: -1%;
+        background-color: rgb(7, 74, 141);;
+        border: none;
+        height: 8vh;
+        width: 40%;
+        border-radius: 3px;
+        margin-left: 1%;
+        font-size: 1rem;
+        color: beige;
+    
 }
 .prt3{
     display: flex;
@@ -238,16 +244,15 @@
 .rmt .rmt-cont{
     width: 100%;
     color: bisque;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-left: 60%;
     flex-wrap: wrap;
+    font-size: large;
 }
 .gsts{
     width: 100%;
     height: 8vh;
-    /* border: none; */
-    border-radius: 5px;
-    padding-left: 60%; 
+    border-radius: 5px; 
     margin-top: 3%;
 
 }
@@ -272,20 +277,21 @@
     line-height: 30px;
     padding-top: 12%;
     margin-left: 3%;
+    font-size: large ;
 }
 .gsts1{
     width: 100%;
     height: 8vh;
     border-radius: 5px;
-    padding-left: 3%; 
     margin-top: 0%;
+    font-size: x-large;
 
 }
 .gsts1 button{
     height: 8vh;
-    width:20%;
+    width:45%;
    color:cornsilk;
-   background-color:dodgerblue;
+   background-color: rgb(7, 74, 141);;
    border: none;
    margin-top: 5%;
    font-size: large;
@@ -338,7 +344,7 @@
         background-position-x: right;
         }
     .bg2 .rent button {
-        margin-top: 16%;
+        margin-top: 0%;
     }
     .cld {
         height: 80vh;
@@ -367,11 +373,13 @@
         margin-right: 1%;
         padding-left: 5%;
     }
-
+    .bg2 .cont2 {
+        line-height: 40px;
+    }
     .bar .bt {
     height: 5vh;
     width: 12%;
-    margin-left: 25%;
+    margin-left: 45%;
     }   
     
     .bar .bt h4{
@@ -460,11 +468,17 @@
 }
 }
 @media(max-width:750px){
+    .nav{
+        height: 8vh;
+    }
+    .nav .logo img{
+        height: 8vh;
+    }
     .bar .bt h4 {
         font-size: smaller;
     }
     .bar .bt {
-        margin-left: 15%;
+        margin-left: 45%;
 
     }
     .bg .sign1 button{
@@ -477,8 +491,8 @@
     }
     .bg2 .rent button{
         height: 6vh;
-        width: 35%;
-        margin-top: 20%;
+        width: 60%;
+        margin-top: 0%;
     }
     .rmt{
         height: 65vh;
@@ -488,7 +502,7 @@
 
     }
     .gsts{
-        padding-left: 45%;
+        padding-left: 0%;
     }
     .gsts button {
         height: 6.5vh;
@@ -506,7 +520,7 @@
     }
     .bar .bt {
         width: 12%;
-        margin-left: 7%;
+        margin-left: 45%;
     }
 
     .bg2 .cont2 {
@@ -514,6 +528,12 @@
     }
     .chnls{
         margin-top: -1%;
+    }
+    .chnls .clm img:hover{
+        width: 150px;
+        height: 18vh;
+        transition: 0.5s;
+        box-shadow: 10px 100px solid black;
     }
     .cld{
         height: 58vh;
@@ -526,10 +546,346 @@
         width: 35vh;
     }
 }
+@media(max-width:650px){
+    .bg{
+        height: 76vh;
+    }
+    .bg .cont1{
+        padding-top: 25%;
+        font-size: 1rem;
+    }
+    .chnls .clm img {
+        padding-top: 10%;
+        height: 17vh;
+
+    }
+    .prt3 .cont {
+        line-height: 26px;
+    }
+    .chnls{
+        margin-top: -2%;
+    }
+    .chnls .clm{
+        margin-top: -1%;
+    }
+}
 
 @media(max-width:600px){
     .bg{
-        /* height: 90vh; */
+        height: 60vh;
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/farzi2.jpg);
     }
+    .bar .bt{
+        margin-left: 39%;
+    }
+    .chnls .clm img{
+        padding-top: 7%;
+        height: 17vh;
+    }
+   .bg .cont1{
+        background-color: black;
+        transform: translateY(200px);
+        font-size: 0.8rem;
+        height: 39vh;
+        padding-top: 6%;
+        padding-left: 0%;
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        height: 6vh;
+    }
+    .nav .logo img{
+        height: 6vh;
+    }
+    .bg .sign1 button{
+        height: 4.8vh;
+        width: 90%;
+        margin-top: 6%;
+    } 
+    .bg .cont1 h2{
+        font-size: 1rem;
+        font-weight: 300;
 
+    
+    }
+    
+    .bg2 .cont2{
+        background-color: black;
+        transform: translateY(200px);
+        font-size: 0.8rem;
+        height: 39vh;
+        padding-top: 6%;
+        padding-left: 0%;
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .b2 .rent{
+        transform: translate();
+    }
+    .bg2 .rent img{
+
+    }
+    .bg2 .rent button{
+        margin-left: 0%;
+        height: 5vh;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .prt3{
+        margin-top: 10%;
+    }
+    .chnls{
+        margin-top: -1%;
+    }
+    .chnls .clm img {
+        height: 15vh;
+    }
+    .chnls .clm{
+        margin-top: 1%;
+    }
+    .rmt .rmt-cont{
+        background-color: black;
+        transform: translateY(300px);
+        font-size: 0.8rem;
+        height: 39vh;
+        padding-top: 6%;
+        padding-left: 0%;
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .gsts {
+        padding-left: 0%;
+    }
+    .gsts button{
+        width: 90%;
+        height: 5vh;
+    }
+    .rmt{
+        background-image: url(/rmt2.jpg);
+        background-position-x: 10px;
+        background-position-y: -80px;
+        height: 50vh;
+        width: 100%;
+    }
+    .cld{
+        margin-top:36%;
+        background-image: url(/cld2.jpg);
+        background-position-y: -60 px;
+        background-position-x: 0px;
+    }
+    .cld .fam{
+        background-color: black;
+        transform: translateY(300px);
+        font-size: 0.8rem;
+        height: 35vh;
+        padding-top: 6%;
+        padding-left: 0%;
+        line-height: 22px;
+        width: 100%;
+        text-align: center; 
+        margin-left: 0%;
+    }
+    .gsts1 button {
+        height: 5vh;
+        width: 90%;
+    }
+    .prm-fotr {
+        height: 15vh;
+        width: 100%;
+        background-color: rgb(37, 34, 34);
+        margin-top: 21%;
+        height: 19vh;
+    }
+    }
+    @media(max-width:550px){
+        .bar .bt{
+            height: 4vh;
+            margin-left: 30%;
+        }
+        .bar .bt h4{
+            line-height: 10px;
+            margin-top: 0%;
+        }
+        .cld .fam {
+            height: 32vh;
+        }
+        .prm-logo {
+            padding-left: 41%;
+        }
+    .bar .bt h4 {
+        margin-left: -1%;
+        line-height: 10px;
+    }
+}
+    
+@media(max-width:500px){
+    .rmt .rmt-cont {
+        background-color: black;
+        transform: translateY(280px);
+        font-size: 0.8rem;
+        height: 30vh;
+        padding-top: 3%;
+        padding-left: 0%;
+        line-height: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    .bg{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/img2.jpg);
+    }
+    .nav .logo{
+        width: 17%;
+    }
+    .bg .cont1 {
+        transform: translateY(210px);
+        height: 33vh;
+    }
+    .bg .sign1 button{
+        margin-top: 21%;
+    }
+    .nav .icon1{
+        margin-left: 3%;
+    }
+    .bg2 .cont2{
+        transform: translateY(270px);
+        height: 33vh;
+    }
+    .chnls{
+        padding-left: 11%;
+    }
+    .cld{
+        margin-top: 28%;
+    }
+    .prm-fotr{
+        margin-top: 23%;
+    }.bar .bt h4 {
+        margin-left: -1%;
+        line-height: 10px;
+    }
+}
+@media(max-width:470px){
+    .prm-fotr{
+        margin-top: 25%;
+    }
+    /* .bar .bt h4{
+        padding-left: 0%;
+        line-height: 10px;
+    }    */
+    .bar .bt h4 {
+        margin-left: -12%;
+        line-height: 11px;
+    }
+}
+@media(max-width:450px){
+    .bg .cont1{
+        padding-top: 20%;
+        transform: translateY(240px);
+    }
+    .bg .sign1 button{
+        margin-top: 33%;
+
+    }
+    
+    .bg2 .cont2 {
+        height: 31vh;
+        transform: translateY(300px);
+    
+}
+.prt3{
+    margin-top: 16%;
+    height: 72vh;
+}
+.chnls{
+    margin-top: 10%;
+}
+.chnls .clm img{
+    height: 12vh;
+}
+.chnls .clm {
+    margin-top: -33%;
+}
+.cld{
+    background-position-x: 80%;
+    background-position-y: 135%;
+    
+}
+.cld .fam{
+    height: 33.5vh;
+}
+.prm-logo {
+    padding-top: 3%;
+    padding-left: 39%;
+}
+.prm-fotr{
+    margin-top: 28%
+}
+.bar .bt h4{
+    margin-left: -24%;
+    line-height: 10px;
+}   
+.bar .bt{
+    width: 15%;
+    margin-left: 33%;
+}
+.nav .icon1{
+    margin-left: 3%;
+}
+}
+@media(max-width:420px){
+    .prm-fotr{
+        padding-top: 1%;
+    }
+    .bar .bt{
+        width: 15%;
+        margin-left: 33%;
+    }
+    .bar .bt h4{
+        margin-left: -14%;
+        line-height: 10px;
+    }   
+}
+@media(max-width:400px){
+    .bar .bt h4{
+        padding-left: -28%;
+        line-height: 7.5px;
+    }
+    .chnls .clm {
+        margin-top: -41%;
+    }
+    .clm img{
+        height: 10.5vh;
+    }
+    .prm-fotr{
+        margin-top: 32%;
+    }
+    .bg .sign1 button {
+        margin-top: 42%;
+    }
+    .prt3{
+        margin-top: 18%;
+    }
+}
+@media(max-width:350px){
+    .chnls{
+        margin-top: 14%;
+    }
+    .chnls .clm img {
+        height: 9vh;
+    }
+    .chnls .clm{
+        margin-top: -55%;
+    }
+    .rmt .rmt-cont {
+        height: 35vh;
+    }
+    .cld{
+        margin-top: 50%;
+    }
+    .cld .fam {
+        height: 31.5vh;
+    }
 }
