@@ -100,14 +100,16 @@
     width: 80%;
     outline:none;
     background-color: transparent;
-    color: black;
+    color:burlywood;
     border: 0;
+    background-color: gray;
 }
 .nav .icon1{
     height: 4.5vh;
     width: 2%;
     margin-top: 0.7%;
     margin-left: 1%;
+    color: bisque;
 }
 .nav .bar .icon1 i{
     color: white;
@@ -385,7 +387,7 @@ hr{
     .bar .bt h4{
         line-height: 15px;
         margin-top: 1%;
-        padding-left: 10%;
+        padding-left: 0%;
     }
 }
 @media(max-width:950px){
@@ -520,7 +522,14 @@ hr{
     }
     .bar .bt {
         width: 12%;
-        margin-left: 45%;
+        margin-left: 30%;
+    }
+    .nav .icon{
+        margin-left: 5%;
+    }
+    .nav .icon1{
+        margin-left: 5%;
+        width: 7%;
     }
 
     .bg2 .cont2 {
@@ -571,12 +580,18 @@ hr{
 }
 
 @media(max-width:600px){
+    .nav .icon{
+        margin-left: 2%;
+    }
+    .nav .icon1{
+        margin-left: 3%;
+    }
     .bg{
         height: 60vh;
         background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/farzi2.jpg);
     }
     .bar .bt{
-        margin-left: 39%;
+        margin-left: 30%;
     }
     .chnls .clm img{
         padding-top: 7%;
@@ -666,8 +681,8 @@ hr{
     }
     .rmt{
         background-image: url(/rmt2.jpg);
-        background-position-x: 10px;
-        background-position-y: -80px;
+        background-position-x: -7px;
+        background-position-y: -50px;
         height: 50vh;
         width: 100%;
     }
@@ -702,6 +717,12 @@ hr{
     }
     }
     @media(max-width:550px){
+        .nav .icon{
+            margin-left: 3%;
+        }
+        .nav .icon1{
+            margin-left: 5%;
+        }
         .bar .bt{
             height: 4vh;
             margin-left: 30%;
@@ -709,6 +730,9 @@ hr{
         .bar .bt h4{
             line-height: 10px;
             margin-top: 0%;
+        }
+        .nav .bar .lng{
+            width: 3%;
         }
         .cld .fam {
             height: 32vh;
@@ -740,6 +764,10 @@ hr{
     .nav .logo{
         width: 17%;
     }
+    .nav .icon{
+        margin-left: 3%;
+    }
+   
     .bg .cont1 {
         transform: translateY(210px);
         height: 33vh;
@@ -748,7 +776,7 @@ hr{
         margin-top: 21%;
     }
     .nav .icon1{
-        margin-left: 3%;
+        margin-left: 5%;
     }
     .bg2 .cont2{
         transform: translateY(270px);
@@ -781,6 +809,9 @@ hr{
     }
 }
 @media(max-width:450px){
+    .bg{
+        height: 45vh;
+    }
     .bg .cont1{
         padding-top: 20%;
         transform: translateY(240px);
@@ -793,10 +824,16 @@ hr{
     .bg2 .cont2 {
         height: 31vh;
         transform: translateY(300px);
+}
+.bg2{
+    
+        height: 57vh;
+        background-position-x: 0px;
+        background-position-y: 110px;
     
 }
 .prt3{
-    margin-top: 16%;
+    margin-top: 28%;
     height: 72vh;
 }
 .chnls{
@@ -834,24 +871,52 @@ hr{
 .nav .icon1{
     margin-left: 3%;
 }
+.prm-fotr {
+    height: 26vh;
+    padding-top: 25%;
+    height: 26vh;
+
+}
 }
 @media(max-width:420px){
     .prm-fotr{
-        padding-top: 1%;
+        padding-top: 15%;
     }
     .bar .bt{
         width: 15%;
-        margin-left: 33%;
+        margin-left: 27%;
+    }
+    .nav .icon{
+        margin-left: 2%;
+    }
+    .nav .icon1 {
+        margin-left: 7%;
     }
     .bar .bt h4{
         margin-left: -14%;
         line-height: 10px;
     }   
+    .cld{
+        height: 50vh;
+        background-position-x: 77%;
+    }
 }
 @media(max-width:400px){
     .bar .bt h4{
         padding-left: -28%;
         line-height: 7.5px;
+    }
+    .bar .bt{
+        margin-left: 17%;
+    }
+    .bar .bt h4{
+        line-height: 11px;
+    }
+    .nav .icon{
+        margin-left: 3%;
+    }
+    .nav .icon1 {
+        margin-left: 6%;
     }
     .chnls .clm {
         margin-top: -41%;
@@ -860,13 +925,22 @@ hr{
         height: 10.5vh;
     }
     .prm-fotr{
-        margin-top: 32%;
+        margin-top: 36%;
     }
     .bg .sign1 button {
         margin-top: 42%;
     }
     .prt3{
-        margin-top: 18%;
+        margin-top: 35%;
+    }
+    .bg2{
+        height: 56vh;
+    }
+    .rmt{
+        background-image: url(/rmt2.jpg);
+        background-position-x: -33px;
+        /* background-position-y: -50px; */
+        
     }
 }
 @media(max-width:350px){
