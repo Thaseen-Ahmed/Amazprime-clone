@@ -237,7 +237,7 @@ hr{
     width: 200px;
     height: 21vh;
     transition: 0.5s;
-    box-shadow: 10px 10px;
+    box-shadow: 5px 7px #aaaaaa;
     
 }
 .rmt{
@@ -829,7 +829,7 @@ hr{
         width: 90px;
         height: 12vh;
         transition: 0.5s;
-        box-shadow: 10px 90px solid black;
+        box-shadow: 5px 8px solid #aaaaaa;
     }
 }
 @media(max-width:470px){
