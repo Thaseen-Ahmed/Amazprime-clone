@@ -829,7 +829,7 @@ hr{
         width: 90px;
         height: 12vh;
         transition: 0.5s;
-        box-shadow: 10px 100px solid black;
+        box-shadow: 10px 90px solid black;
     }
 }
 @media(max-width:470px){
