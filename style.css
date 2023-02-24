@@ -733,7 +733,12 @@ hr{
             height: 4vh;
             margin-left: 30%;
         }
-        .bar .bt h4{
+        .lng select {
+            height: 4vh;
+        }
+        .hid a{
+            font-size: x-small;
+        }        .bar .bt h4{
             line-height: 10px;
             margin-top: 0%;
         }
@@ -773,6 +778,20 @@ hr{
     .nav .icon{
         margin-left: 3%;
     }
+    .bar .bt{
+        margin-left: 5%;
+    }
+    /* .bar .bt h4 {
+        margin-left: 0%;
+        line-height: 0px;
+        width: 40%;
+    } */
+    .lng select {
+        width: 139%;
+    }
+    .bar .bt h4{
+        line-height: 0%;
+    }
    
     .bg .cont1 {
         transform: translateY(210px);
@@ -811,14 +830,34 @@ hr{
     .prm-fotr{
         margin-top: 25%;
     }
-    /* .bar .bt h4{
+    .bar .bt{
+        width: 21%;
+    }
+    .bar .bt h4{
         padding-left: 0%;
-        line-height: 10px;
-    }    */
-    .bar .bt h4 {
+        line-height: 0.7.5rem;
+        /* width: 60%; */
+    }   
+    .nav .hid{
+        margin-left: 14%;
+    }
+    .nav .icon{
+        margin-left: 4%;
+    }
+    .nav .icon1 {
+        margin-left: 6%;
+    }
+    .nav .bar .lng {
+        width: 25%;
+    }
+    .lng select{
+        width: 95%;
+        font-size: x-small;
+    }
+    /* .bar .bt h4 {
         margin-left: -12%;
         line-height: 11px;
-    }
+    } */
 }
 @media(max-width:450px){
     .bg{
@@ -872,8 +911,11 @@ hr{
 .prm-fotr{
     margin-top: 28%
 }
+.lng select {
+    width: 125%;
+}
 .bar .bt h4{
-    margin-left: -24%;
+    margin-left: -12%;
     line-height: 10px;
 }   
 .bar .bt{
