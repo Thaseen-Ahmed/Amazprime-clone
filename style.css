@@ -212,7 +212,7 @@ hr{
 
 .chnls{
     display: flex;
-    gap: 4px;
+    gap: 15px;
     padding-left: 10%;
     margin-top: 2%;
 
@@ -224,20 +224,23 @@ hr{
     height: 21vh;
     margin-top: 1.5%;
   
+  
  
 }
 .chnls .clm img{
     width: 200px;
     height: 20vh;
     padding-top: 1%;
+    transition:  0.5s ease-in-out;
     
 }
 
 .chnls .clm img:hover{
-    width: 200px;
-    height: 21vh;
-    transition: 0.5s;
-    box-shadow: 5px 7px #aaaaaa;
+    transform:  scale(1.04);
+    /* background-color: #333; */
+    /* color: #333; */
+    
+  
     
 }
 .rmt{
@@ -829,7 +832,7 @@ hr{
         width: 90px;
         height: 12vh;
         transition: 0.5s;
-        box-shadow: 5px 8px solid #aaaaaa;
+        box-shadow: 10px 90px solid #aaaaaa;
     }
 }
 @media(max-width:470px){
