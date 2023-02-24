@@ -886,6 +886,22 @@ hr{
         background-position-y: 110px;
     
 }
+.nav .bar .hid{
+    padding-top: 1%;
+}
+.bar .bt{
+    margin-top: 1%;
+}
+.nav .icon{
+   margin-top: 2%; 
+}
+.nav .icon1{
+    margin-top: 2%;
+}
+.lng select{
+    margin-top: 5%;
+}
+
 .prt3{
     margin-top: 28%;
     height: 72vh;
