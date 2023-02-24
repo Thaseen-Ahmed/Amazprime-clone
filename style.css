@@ -826,7 +826,7 @@ hr{
         line-height: 10px;
     }
     .chnls .clm img:hover{
-        width: 103px;
+        width: 100px;
         height: 12vh;
         transition: 0.5s;
         box-shadow: 10px 100px solid black;
