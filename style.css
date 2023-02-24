@@ -731,7 +731,7 @@ hr{
         }
         .bar .bt{
             height: 4vh;
-            margin-left: 30%;
+            margin-left: 44%;
         }
         .lng select {
             height: 4vh;
@@ -743,7 +743,10 @@ hr{
             margin-top: 0%;
         }
         .nav .bar .lng{
-            width: 3%;
+            width: 10%;
+        }
+        .hid{
+            padding-left: 5%;
         }
         .cld .fam {
             height: 32vh;
@@ -848,7 +851,7 @@ hr{
         margin-left: 6%;
     }
     .nav .bar .lng {
-        width: 25%;
+        width: 15%;
     }
     .lng select{
         width: 95%;
@@ -912,7 +915,7 @@ hr{
     margin-top: 28%
 }
 .lng select {
-    width: 125%;
+    width: 115%;
 }
 .bar .bt h4{
     margin-left: -12%;
