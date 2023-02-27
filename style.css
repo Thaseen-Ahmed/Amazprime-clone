@@ -644,9 +644,6 @@ hr{
     .b2 .rent{
         transform: translate();
     }
-    .bg2 .rent img{
-
-    }
     .bg2 .rent button{
         margin-left: 0%;
         height: 5vh;
@@ -690,10 +687,11 @@ hr{
         height: 5vh;
     }
     .chnls .clm img:hover{
-        width: 130px;
+        /* width: 130px;
         height: 15vh;
         transition: 0.5s;
-        box-shadow: 10px 100px solid black;
+        box-shadow: 10px 100px solid black; */
+        transform:  scale(1.04);
     } 
     .rmt{
         background-image: url(/rmt2.jpg);
@@ -834,10 +832,11 @@ hr{
         line-height: 10px;
     }
     .chnls .clm img:hover{
-        width: 90px;
+        /* width: 90px;
         height: 17vh;
         transition: 0.5s;
-        box-shadow: 10px 90px solid #aaaaaa;
+        box-shadow: 10px 90px solid #aaaaaa; */
+        transform:  scale(1.04);
     }
 }
 @media(max-width:470px){
@@ -1046,10 +1045,11 @@ hr{
     }
     
     .chnls .clm img:hover{
-        width: 80px;
+        /* width: 80px;
         height:  8vh;
         transition: 0.4s;
-        box-shadow: 20px 90px solid #aaaaaa;
+        box-shadow: 20px 90px solid #aaaaaa; */
+        transform:  scale(1.04);
     }
     .cld{
         margin-top: 50%;
