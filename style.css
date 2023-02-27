@@ -439,13 +439,12 @@ hr{
 @media(max-width:800px){
     .totl{
         flex-direction: column;
-
     }
     .bg2{
         height: 65vh;
     }
     .prt3 .cont{
-        padding-top: 1%;
+        padding-top: 0%;
         width: 85%;
         line-height: 20px;
         margin-left: 7%;
@@ -545,10 +544,9 @@ hr{
         margin-top: -1%;
     }
     .chnls .clm img:hover{
-        width: 150px;
-        height: 18vh;
-        transition: 0.5s;
+        transition: 0.3s;
         box-shadow: 10px 100px solid black;
+        transform:  scale(1.04);
     }
     .cld{
         height: 58vh;
@@ -737,7 +735,7 @@ hr{
         }
         .bar .bt{
             height: 4vh;
-            margin-left: 44%;
+            margin-left: 38%;
         }
         .lng select {
             height: 4vh;
@@ -749,7 +747,7 @@ hr{
             margin-top: 0%;
         }
         .nav .bar .lng{
-            width: 10%;
+            width: 14%;
         }
         .hid{
             padding-left: 5%;
@@ -788,7 +786,7 @@ hr{
         margin-left: 3%;
     }
     .bar .bt{
-        margin-left: 5%;
+        margin-left: 15%;
     }
     /* .bar .bt h4 {
         margin-left: 0%;
@@ -796,12 +794,11 @@ hr{
         width: 40%;
     } */
     .lng select {
-        width: 139%;
+        width: 100%;
     }
-    .bar .bt h4{
-        line-height: 0%;
+    .hid {
+        padding-left: 26%;
     }
-   
     .bg .cont1 {
         transform: translateY(210px);
         height: 33vh;
@@ -824,13 +821,15 @@ hr{
     }
     .prm-fotr{
         margin-top: 23%;
-    }.bar .bt h4 {
-        margin-left: -1%;
+    }
+    .bar .bt h4 {
+        line-height: 0%;
+        margin-left: -9%;
         line-height: 10px;
     }
     .chnls .clm img:hover{
         width: 90px;
-        height: 12vh;
+        height: 17vh;
         transition: 0.5s;
         box-shadow: 10px 90px solid #aaaaaa;
     }
@@ -840,7 +839,8 @@ hr{
         margin-top: 25%;
     }
     .bar .bt{
-        width: 21%;
+        width: 15%;
+        margin-left: 25%;
     }
     .bar .bt h4{
         padding-left: 0%;
@@ -848,7 +848,7 @@ hr{
         /* width: 60%; */
     }   
     .nav .hid{
-        margin-left: 15%;
+        margin-left: -11%;
     }
     .nav .icon{
         margin-left: 4%;
@@ -945,7 +945,7 @@ hr{
 }   
 .bar .bt{
     width: 15%;
-    margin-left: 33%;
+    margin-left: 25%;
 }
 .nav .icon1{
     margin-left: 3%;
@@ -963,7 +963,7 @@ hr{
     }
     .bar .bt{
         width: 15%;
-        margin-left: 27%;
+        margin-left: 18%;
     }
     .nav .icon{
         margin-left: 2%;
@@ -1034,6 +1034,16 @@ hr{
     }
     .rmt .rmt-cont {
         height: 35vh;
+    }
+    .prt3 .cont{
+        padding-top: 4%;
+    }
+    
+    .chnls .clm img:hover{
+        width: 80px;
+        height:  8vh;
+        transition: 0.4s;
+        box-shadow: 20px 90px solid #aaaaaa;
     }
     .cld{
         margin-top: 50%;
