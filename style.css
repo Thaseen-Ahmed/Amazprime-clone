@@ -683,6 +683,12 @@ hr{
         width: 90%;
         height: 5vh;
     }
+    .nav .bar .lng {
+        width: 16%;
+    }
+    .lng select {
+        height: 5vh;
+    }
     .chnls .clm img:hover{
         width: 130px;
         height: 15vh;
@@ -877,7 +883,7 @@ hr{
         transform: translateY(240px);
     }
     .bg .sign1 button{
-        margin-top: 33%;
+        margin-top: 40%;
 
     }
     
