@@ -540,7 +540,7 @@ hr{
         height: 65vh;
     }
     .bar .bt{
-        margin-left: 50%;
+        margin-left: 54%;
         font-size: 0.86rem;
     }
     .bar .bt h4 {
@@ -640,8 +640,11 @@ hr{
         padding-top: 15%;
     }
     .bar .bt {
-        width: 12%;
-        margin-left: 30%;
+        width: 14%;
+        margin-left: 50%;
+    }
+    .nav .bar .lng{
+        margin-left: 0%;
     }
     .nav .icon{
         margin-left: 5%;
@@ -650,9 +653,20 @@ hr{
         margin-left: 5%;
         width: 7%;
     }
-
+    .nav .bar .icon1 i {
+    margin-left: 50%;
+}
+    .nav .icon{
+        margin-left: 0%;
+}
+    .nav .icon1{
+        margin-left: 1%;
+}
     .bg2 .cont2 {
         line-height: 35px;
+    }
+    .prt3 .cont{
+        padding-top: 2%;
     }
     .chnls{
         margin-top: -1%;
@@ -672,6 +686,9 @@ hr{
         height: 7vh;
         width: 35vh;
     }
+    .prm-fotr {
+        height: 15vh;
+    }
 }
 @media(max-width:650px){
     .bg{
@@ -685,6 +702,9 @@ hr{
         padding-top: 10%;
         height: 17vh;
 
+    }
+    .bar .bt h4{
+        margin-top: 0%;
     }
     .prt3 .cont {
         line-height: 26px;
@@ -709,7 +729,9 @@ hr{
         background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/farzi2.jpg);
     }
     .bar .bt{
-        margin-left: 30%;
+        margin-left: 38%;
+        height: 3vh;
+        font-size: x-small;
     }
     .chnls .clm img{
         padding-top: 7%;
@@ -730,8 +752,11 @@ hr{
         height: 6vh;
     }
     .nav .logo img{
-        height: 6vh;
+        height: 3vh;
     }
+    .bar ul li {
+    margin-left: 22%;
+}
     .bg .sign1 button{
         height: 4.8vh;
         width: 90%;
@@ -798,7 +823,7 @@ hr{
         width: 16%;
     }
     .lng select {
-        height: 5vh;
+        height: 3.5vh;
     }
     .chnls .clm img:hover{
         /* width: 130px;
@@ -846,17 +871,17 @@ hr{
     }
     @media(max-width:550px){
         .nav .icon{
-            margin-left: 3%;
+            margin-left: 0%;
         }
         .nav .icon1{
-            margin-left: 5%;
+            margin-left: 0%;
         }
         .bar .bt{
-            height: 4vh;
-            margin-left: 38%;
+            height: vh;
+            margin-left: 44%;
         }
         .lng select {
-            height: 4vh;
+            height: 3vh;
         }
         /* .hid a{
             font-size: small;
@@ -865,8 +890,11 @@ hr{
             line-height: 10px;
             margin-top: 0%;
         }
+        .nav .bar .icon i{
+            margin-left: 30%;
+        }
         .nav .bar .icon1 i {
-    margin-left: 140%;
+        margin-left: 40%;
         }
         .nav .bar .lng{
             width: 14%;
@@ -881,7 +909,7 @@ hr{
             padding-left: 41%;
         }
     .bar .bt h4 {
-        margin-left: -1%;
+        margin-left: -6%;
         line-height: 10px;
     }
 }
@@ -905,11 +933,19 @@ hr{
         width: 20%;
     }
     .nav .icon{
-        margin-left: 3%;
+        margin-left: 1%;
+    }
+    .nav .bar .icon1 i{
+        margin-left: 0%;
     }
     .bar .bt{
-        margin-left: 15%;
+        margin-left: 35%;
     }
+    .bar .bt h4 {
+    line-height: 0%;
+    margin-left: 0%;
+    line-height: 8px;
+}
     /* .bar .bt h4 {
         margin-left: 0%;
         line-height: 0px;
@@ -944,11 +980,7 @@ hr{
     .prm-fotr{
         margin-top: 23%;
     }
-    .bar .bt h4 {
-        line-height: 0%;
-        margin-left: -9%;
-        line-height: 10px;
-    }
+    
     .chnls .clm img:hover{
         /* width: 90px;
         height: 17vh;
@@ -963,7 +995,7 @@ hr{
     }
     .bar .bt{
         width: 15%;
-        margin-left: 25%;
+        margin-left: 32%;
     }
     .bar .bt h4{
         padding-left: 0%;
@@ -1022,15 +1054,21 @@ hr{
     margin-top: 1%;
 }
 .nav .icon{
-   margin-top: 2%; 
+   margin-top: 1%; 
+   margin-left: 1%;
 }
 .nav .icon1{
-    margin-top: 2%;
+    margin-top: 1%;
+}
+.nav .bar .icon1 i {
+    margin-left: 25%;
 }
 .lng select{
     margin-top: 5%;
 }
-
+.nav .logo img {
+    height: 2.8vh;
+}
 .prt3{
     margin-top: 28%;
     height: 72vh;
@@ -1068,7 +1106,7 @@ hr{
 }   
 .bar .bt{
     width: 15%;
-    margin-left: 25%;
+    margin-left: 33%;
 }
 .nav .icon1{
     margin-left: 3%;
@@ -1086,7 +1124,10 @@ hr{
     }
     .bar .bt{
         width: 15%;
-        margin-left: 18%;
+        margin-left: 25%;
+    }
+    .nav .bar .icon1 i {
+        margin-left: 0%;
     }
     .nav .icon{
         margin-left: 2%;
@@ -1095,8 +1136,8 @@ hr{
         margin-left: 7%;
     }
     .bar .bt h4{
-        margin-left: -14%;
-        line-height: 10px;
+        margin-left: 5%;
+        line-height: 8px;
     }   
     .cld{
         height: 50vh;
@@ -1106,13 +1147,11 @@ hr{
 @media(max-width:400px){
     .bar .bt h4{
         padding-left: -28%;
-        line-height: 7.5px;
+        line-height: 8px;
     }
     .bar .bt{
-        margin-left: 17%;
-    }
-    .bar .bt h4{
-        line-height: 11px;
+        margin-left: 26%;
+        margin-top: 0%;
     }
     .nav .icon{
         margin-left: 3%;
@@ -1146,6 +1185,10 @@ hr{
     }
 }
 @media(max-width:350px){
+    .bar .bt{
+        width: 16%;
+        font-size: xx-small;
+    }
     .chnls{
         margin-top: 14%;
     }
