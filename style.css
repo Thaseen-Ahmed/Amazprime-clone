@@ -6,39 +6,80 @@
     font-family: 'Raleway', sans-serif;
 }
 .nav{
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
     display: flex;
     background-color: rgb(32, 29, 37);
     display: flex;
+    padding: 15px 10px;
 }
 .nav .logo{
-    width: 11%;
-    height: 11vh;
+    /* width: 11%;
+    height: 11vh; */
 }
 .nav .logo img{
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
+}
+.nav .bar ul{
+    list-style: none;
+    margin-left: 1%;
+   
+}
+.bar ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav .bar ul li a{
+    display: contents;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+
+}
+.nav .bar ul li ul.Dropdown li{
+    display: block;
+    
+}
+.nav .bar ul li ul.Dropdown{
+    width: 100%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.nav .bar ul li a:hover{
+    background-color:darkgrey;
+}
+.nav .bar ul li:hover ul.Dropdown{
+    display: block;
 }
 .nav .bar{
     width: 100%;
 }
   
-
 .nav .bar{
     display: flex;
     margin-left: 0%;
-    margin-top: 1%;
-    
+  
 }
 .catgry{
     margin-left: 2%;
     
 }
-.bar a{
+.bar .my-stf{
     margin-left: 3%;
-    color: whitesmoke;
 }
+.bar .my-stf a{
+    margin-left: 2%;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* .bar .hid a{
+    margin-top: 2%;
+} */
 .catgry select{
     height: 4vh;
     background-color: transparent;
@@ -85,10 +126,7 @@
     color: white;
     font-size: large;
 }
-.nav .bar .hid{
-    /* display: none; */
-    color: bisque;
-}
+
 .nav .bar .lng{
     width: 5%;
     /* background-color: cadetblue; */
@@ -327,6 +365,32 @@ hr{
     gap: 50px;
 
 }
+@media(max-width:1330px){
+    .lng select {
+    height: 5vh;
+    }
+    .nav .icon1{
+        margin-left: 0%;
+    }
+    .nav .bar .lng{
+        width: 09%;
+        font-size: small;
+        margin-left: 0%;
+    }
+    .lng select {
+
+    margin-left: 65%;
+}
+    .bar .bt{
+        height: 5vh;
+        font-size: medium;
+        margin-left: 35%;
+    }
+    .bar .bt h4 {
+    margin-top: 0;
+    margin-left: 0%;
+    }
+}
 @media(max-width:1150px){
     .bg{
         background-position-x: right;
@@ -351,8 +415,19 @@ hr{
         width: auto;
         background-position-x: right;
         }
+        .bar .bt{
+            width: 23%;
+            font-size: 0.98rem;
+        }
     .bg2 .rent button {
         margin-top: 0%;
+    }
+    .lng select{
+        margin-left: 10%;
+        width: 100%;
+    }
+    .nav .bar .lng {
+    width: 10%;
     }
     .cld {
         height: 80vh;
@@ -374,9 +449,9 @@ hr{
     .nav .bar .my-stf{
         display: none;
     }
-    .hid{
+    /* .hid{
         padding-left: 20%;
-    }
+    } */
     .chnls {
         margin-right: 1%;
         padding-left: 5%;
@@ -384,15 +459,26 @@ hr{
     .bg2 .cont2 {
         line-height: 40px;
     }
+    .nav .bar ul {
+       
+        margin-left: 2%;
+    }
+    .bar ul li {
+        display: inline-block;
+        position: relative;
+        width: 200%;
+      
+        height: 7vh;
+    }
     .bar .bt {
     height: 5vh;
     width: 12%;
-    margin-left: 45%;
+    margin-left: 58.5%;
     }   
     
     .bar .bt h4{
-        line-height: 15px;
-        margin-top: 1%;
+        /* line-height: 15px;
+        margin-top: 1%; */
         padding-left: 0%;
     }
 }
@@ -420,13 +506,20 @@ hr{
     padding-top:10%;
     padding-left: 50%;
 }
+.bar ul li{
+    margin-left: 50%;
+}
 /* .chnls .clm img{
     width: 170px;
 }
 .chnls{
     gap: 1px;
 } */
+.bar .bt{
+    /* margin-left: 35%; */
 }
+}
+
 
 @media(max-width:850px){
     .chnls{
@@ -434,6 +527,9 @@ hr{
     }
     .cld{
         background-position-x: -60px;
+    }
+    .bar .bt{
+        font-size: 0.94rem;
     }
 }
 @media(max-width:800px){
@@ -443,6 +539,23 @@ hr{
     .bg2{
         height: 65vh;
     }
+    .bar .bt{
+        margin-left: 50%;
+        font-size: 0.86rem;
+    }
+    .bar .bt h4 {
+    margin-top: 2%;
+    margin-left: 0%;
+}
+.nav .bar .lng{
+    margin-left: 8%;
+}
+.nav .bar .icon1 i{
+    margin-left: 275%;
+}
+.nav .bar .icon i{
+    margin-left: 100%;
+}
     .prt3 .cont{
         padding-top: 0%;
         width: 85%;
@@ -479,13 +592,14 @@ hr{
         height: 8vh;
     }
     .nav .logo img{
-        height: 8vh;
+        height: 3.5vh;
     }
     .bar .bt h4 {
-        font-size: smaller;
+        
     }
     .bar .bt {
-        margin-left: 45%;
+        margin-left: 50%;
+        font-size: 0.8.8rem;
 
     }
     .bg .sign1 button{
@@ -744,18 +858,22 @@ hr{
         .lng select {
             height: 4vh;
         }
-        .hid a{
+        /* .hid a{
             font-size: small;
-        }.bar .bt h4{
+        } */
+        .bar .bt h4{
             line-height: 10px;
             margin-top: 0%;
+        }
+        .nav .bar .icon1 i {
+    margin-left: 140%;
         }
         .nav .bar .lng{
             width: 14%;
         }
-        .hid{
+        /* .hid{
             padding-left: 5%;
-        }
+        } */
         .cld .fam {
             height: 32vh;
         }
@@ -800,9 +918,9 @@ hr{
     .lng select {
         width: 100%;
     }
-    .hid {
+    /* .hid {
         padding-left: 26%;
-    }
+    } */
     .bg .cont1 {
         transform: translateY(210px);
         height: 33vh;
@@ -852,9 +970,9 @@ hr{
         line-height: 0.7.5rem;
         /* width: 60%; */
     }   
-    .nav .hid{
+    /* .nav .hid{
         margin-left: -11%;
-    }
+    } */
     .nav .icon{
         margin-left: 4%;
     }
@@ -897,9 +1015,9 @@ hr{
         background-position-y: 110px;
     
 }
-.nav .bar .hid{
+/* .nav .bar .hid{
     padding-top: 1%;
-}
+} */
 .bar .bt{
     margin-top: 1%;
 }
