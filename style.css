@@ -21,6 +21,11 @@
     /* height: 10vh; */
     width: 100%;
 }
+.nav .bar a{
+    justify-content: space-between;
+    margin-left: 1%;
+
+}
 .nav .bar ul{
     list-style: none;
     margin-left: 1%;
@@ -44,12 +49,16 @@
     
 }
 .nav .bar ul li ul.Dropdown{
-    width: 100%;
-    background: #22438c;
+    width: 200%;
+    text-align: center;
+    background: #d8b4fe;
     position: absolute;
     z-index: 999;
     display: none;
+    height: 15vh;
+    
 }
+
 .nav .bar ul li a:hover{
     background-color:darkgrey;
 }
@@ -57,13 +66,9 @@
     display: block;
 }
 .nav .bar{
-    width: 100%;
-}
-  
-.nav .bar{
     display: flex;
     margin-left: 0%;
-  
+    width: 100%;
 }
 .catgry{
     margin-left: 2%;
@@ -377,6 +382,7 @@ hr{
         font-size: small;
         margin-left: 0%;
     }
+    
     .lng select {
 
     margin-left: 65%;
@@ -416,8 +422,9 @@ hr{
         background-position-x: right;
         }
         .bar .bt{
-            width: 23%;
+            width: 10%;
             font-size: 0.98rem;
+            margin-left: 23%;
         }
     .bg2 .rent button {
         margin-top: 0%;
@@ -470,6 +477,21 @@ hr{
       
         height: 7vh;
     }
+    .bar ul li{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 750%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
+    }
     .bar .bt {
     height: 5vh;
     width: 12%;
@@ -507,7 +529,19 @@ hr{
     padding-left: 50%;
 }
 .bar ul li{
-    margin-left: 50%;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 2%;
+}
+.nav .bar ul li ul.Dropdown {
+    width: 750%;
+    text-align: center;
+    background: #d8b4fe;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    height: 40vh;
+    margin-left: 0%;
 }
 /* .chnls .clm img{
     width: 170px;
@@ -531,6 +565,7 @@ hr{
     .bar .bt{
         font-size: 0.94rem;
     }
+   
 }
 @media(max-width:800px){
     .totl{
@@ -540,11 +575,11 @@ hr{
         height: 65vh;
     }
     .bar .bt{
-        margin-left: 54%;
+        margin-left: 50%;
         font-size: 0.86rem;
     }
     .bar .bt h4 {
-    margin-top: 2%;
+    margin-top: -2%;
     margin-left: 0%;
 }
 .nav .bar .lng{
@@ -755,7 +790,7 @@ hr{
         height: 3vh;
     }
     .bar ul li {
-    margin-left: 22%;
+    margin-left: 0%;
 }
     .bg .sign1 button{
         height: 4.8vh;
@@ -911,6 +946,21 @@ hr{
     .bar .bt h4 {
         margin-left: -6%;
         line-height: 10px;
+    }
+    .bar ul li{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 550%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
     }
 }
     
@@ -1139,6 +1189,21 @@ hr{
         margin-left: 5%;
         line-height: 8px;
     }   
+    .bar ul li{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 530%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
+    }
     .cld{
         height: 50vh;
         background-position-x: 77%;
@@ -1152,6 +1217,16 @@ hr{
     .bar .bt{
         margin-left: 26%;
         margin-top: 0%;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 470%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
     }
     .nav .icon{
         margin-left: 3%;
@@ -1188,6 +1263,16 @@ hr{
     .bar .bt{
         width: 16%;
         font-size: xx-small;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 400%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
     }
     .chnls{
         margin-top: 14%;
