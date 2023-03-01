@@ -48,8 +48,8 @@
     display: block;
     
 }
-.nav .bar ul li ul.Dropdown{
-    width: 200%;
+/* .nav .bar ul li ul.Dropdown{
+    width: 850%;
     text-align: center;
     background: #d8b4fe;
     position: absolute;
@@ -57,6 +57,21 @@
     display: none;
     height: 15vh;
     
+} */
+.bar ul li{
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 7%;
+}
+.nav .bar ul li ul.Dropdown {
+    width: 830%;
+    text-align: center;
+    background: #d8b4fe;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    height: 40vh;
+    margin-left: 0%;
 }
 
 .nav .bar ul li a:hover{
@@ -395,6 +410,21 @@ hr{
     .bar .bt h4 {
     margin-top: 0;
     margin-left: 0%;
+    }
+    .bar ul li{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 6%;
+    }
+    .nav .bar ul li ul.Dropdown {
+        width: 830%;
+        text-align: center;
+        background: #d8b4fe;
+        position: absolute;
+        z-index: 999;
+        display: none;
+        height: 40vh;
+        margin-left: 0%;
     }
 }
 @media(max-width:1150px){
